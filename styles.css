@@ -1,0 +1,57 @@
+body {
+    background-color:   #7ea3ba  ;
+}
+
+#wrapper {
+    display: block;
+    text-align: center;
+}
+#title {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin-top: 60px;
+    color: white;
+}
+
+#description {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+#survey-form {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 0.5rem;
+    display: inline-block;
+    text-align: left;
+    color: white;
+    padding: 25px;
+}
+
+#checkBox {
+    display: flex;
+    flex-direction: column;
+}
+.form-control {
+    display: block;
+    width: 600px;
+    height: 40px;
+    margin: 10px 0px;
+    background-color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+}
+#submit {
+    font-size: 20px;
+    background-color: #7eba8e 
+}
+#radio-questions {
+    display: flex;
+    flex-direction: column;
+}
+#textBox {
+    width: 100%;
+    min-height: 100px;
+}

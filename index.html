@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Buddhism Survey Form</h1>
+        <p id="description"><b>Thank you</b> for taking the time to fill out this short survery form</p>
+    </header>
+    <div id="wrapper">
+        <form action="" id="survey-form">
+            <div>
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Please enter your name" required>
+            </div>
+            <div>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="Please enter your email" required>
+            </div>
+            <div>
+                <label for="age" id="number-label">Age (optional)</label>
+                <input type="number" id="number" class="form-control" placeholder="Please enter your age" min="18" max="65" >
+            </div>
+            <p>What is your experience with Buddhism?</p>
+            <select id="dropdown" name="dropdown" class="form-control">
+                <option value="none">None</option>
+                <option value="little">Little</option>
+                <option value="moderate">Moderate</option>
+                <option value="much">A lot</option>
+            </select>
+            <p>What would you chances be of pursing Buddhism in the future?</p>
+            <div id="radio-questions">
+                <label>
+                    <input type="radio" value="Absolutely" id="absolutely" name="likelyhood"> Absolutely
+                </label>
+                <label>
+                    <input type="radio" value="Maybe" id="maybe" name="likelyhood"> Maybe
+                </label>
+                <label>
+                    <input type="radio" value="Not likely" id="notlikely" name="likelyhood"> Not likely
+                </label>
+                <label>
+                    <input type="radio" value="Never" id="never" name="likelyhood"> Never
+                </label>
+            </div>
+            <p>Which country today do you think has the most Buddhist influence?</p>
+            <select id="dropdown" name="countries" class="form-control">
+                <option value="thailand">Thailand</option>
+                <option value="india">India</option>
+                <option value="vietnam">Vietnam</option>
+                <option value="srilanka">Sri Lanka</option>
+            </select>
+            <p>What asecpts of Buddhism do you find most appealing?</p>
+            <div id="checkBox">
+                <label>
+                    <input type="checkbox" value="compassion" > Compassion
+                </label>
+                <label>
+                    <input type="checkbox" value="selflessness" > Selflessness
+                </label>
+                <label>
+                    <input type="checkbox" value="sympathy" > Sympathy
+                </label>
+                <label>
+                    <input type="checkbox" value="charity" > Charity
+                </label>
+                <label>
+                    <input type="checkbox" value="wisdom" > Wisdom
+                </label>
+                <label>
+                    <input type="checkbox" value="meditation" > Meditation
+                </label>
+            </div>
+            <div id="form-control">
+                <p>Please place any comments here: </p>
+                    <textarea name="comments" id="textBox"></textarea>
+            </div>
+            <button class="form-control" id="submit" type="submit">Submit</button>
+        </form>
+    </div>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
